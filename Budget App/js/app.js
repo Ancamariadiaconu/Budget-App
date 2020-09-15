@@ -137,8 +137,7 @@ class UI{
         this.expenseList.removeChild(parent);
         //remove from list
         //retun item edited
-        this.expenseInput.value = expense[0].title;
-        this.amountInput.value = expense[0].amount; 
+        
         let tempList = this.itemList.filter(function(item){
             return item.id!=id;
         })
